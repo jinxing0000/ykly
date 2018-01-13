@@ -1,0 +1,77 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/my/index",
+    "example/index",
+    "example/button/button",
+    "example/list/list",
+    "example/input/input",
+    "example/slider/slider",
+    "example/uploader/uploader",
+    "example/article/article",
+    "example/badge/badge",
+    "example/flex/flex",
+    "example/footer/footer",
+    "example/gallery/gallery",
+    "example/grid/grid",
+    "example/icons/icons",
+    "example/loadmore/loadmore",
+    "example/panel/panel",
+    "example/preview/preview",
+    "example/progress/progress",
+    "example/actionsheet/actionsheet",
+    "example/dialog/dialog",
+    "example/msg/msg",
+    "example/msg/msg_success",
+    "example/msg/msg_fail",
+    "example/picker/picker",
+    "example/toast/toast",
+    "example/navbar/navbar",
+    "example/tabbar/tabbar",
+    "example/searchbar/searchbar"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "盈科旅游晋中分公司",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "backgroundColor": "#f8f8f8"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath":"images/home.png",
+        "selectedIconPath":"images/home-1.png",
+        "pagePath": "pages/home/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/product.png",
+        "selectedIconPath": "images/product-1.png",
+        "pagePath": "example/index",
+        "text": "产品"
+      },
+     {
+       "iconPath": "images/shoping.png",
+       "selectedIconPath": "images/shoping-1.png",
+       "pagePath": "pages/home/index",
+       "text": "购物车"
+     },
+     {
+       "iconPath": "images/my.png",
+       "selectedIconPath": "images/my-1.png",
+       "pagePath": "pages/my/index",
+       "text": "我的"
+    }
+    ]
+  },
+  "debug": true
+}
